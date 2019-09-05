@@ -28,16 +28,21 @@ GUI Initialization module
 #  First Things First
 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#  Here at the top of the module, it's good practice to always
-#  the license text.  Add your name and email.  Date is optional
-#  and reflects the date of first publication.
+#
+#  --- Copyrights ---
+#
+#  Here at the top of the module, it's good practice to always add
+#  the license text.  Add your name and email, if desired.
+#  Date is optional and reflects the date of first publication *only*.
+#
+#  --- Globals ----
 #
 #  Per standard Python practice, imports are located at the top of the
 #  file, with the exception of workbench commands - more later on that.
 #
 #  Also note the use of the TEMPLATEWB_VERSION constant.  This provides
-#  a quick, easy way to version your workbench.  It's also indicated
-#  in the FreeCAD UI for users' convenience
+#  a quick, easy way to version your workbench and makes it easy for
+#  a user to know which version they're running.
 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
