@@ -28,9 +28,11 @@ import os
 import FreeCAD as App
 import FreeCADGui as Gui
 
+from PySide import QtGui
+
 from freecad.workbench_starterkit import ICONPATH
 
-class MyCommand1():
+class MyCommand2():
     """
     Example Command
     """
@@ -42,9 +44,9 @@ class MyCommand1():
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     resources = {
         'Pixmap'  : os.path.join(ICONPATH, "template_resource.svg"),
-        'Accel'   : "Shift+1",
-        'MenuText': "MyCommand1",
-        'ToolTip' : "Test command #1 for Workbench Starter Kit",
+        'Accel'   : "Shift+2",
+        'MenuText': "MyCommand2",
+        'ToolTip' : "Test command #2 for Workbench Starter Kit",
         'CmdType' : "ForEdit"
     }
 
@@ -59,12 +61,12 @@ class MyCommand1():
         Activation callback
         """
 
-        print('\n\tRunning My Command 1...')
+        #_mw = self.getMainWindow()
 
-        App.ActiveDocument.addObject('Part::Box', 'Starter_Box')
-        App.ActiveDocument.ActiveObject.Label = 'Starter kit box'
-        App.ActiveDocument.recompute()
-        Gui.SendMsgToActiveView('ViewFit')
+        #self.form = _mw.findChild(QtGui.QWidget, 'TaskPanel')
+
+        print('\n\tRuning My Command 2...')
+        print('\n\tUser chose file: ' + self.choose_file())
 
     def IsActive(self):
         """
@@ -80,4 +82,30 @@ class MyCommand1():
 
         return App.ActiveDocument is not None
 
-Gui.addCommand('MyCommand1', MyCommand1())
+    def getMainWindow(self):
+        """
+        Return reference to main window
+        """
+        top = QtGui.QApplication.topLevelWidgets()
+
+        for item in top:
+            if item.metaObject().className() == 'Gui::MainWindow':
+                return item
+
+        raise RuntimeError('No main window found')
+
+    def choose_file(self):
+        """
+        Open the file picker dialog and open the file
+        that the user chooses
+        """
+
+        open_path = ICONPATH
+
+        file_name = QtGui.QFileDialog.getOpenFileName(
+            None, 'Select File', open_path
+        )
+
+        return file_name[0]
+
+Gui.addCommand('MyCommand2', MyCommand2())

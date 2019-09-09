@@ -97,19 +97,19 @@ class template_workbench(Gui.Workbench):
 
         self.command_ui = {
 
-            'Toolbox 1': {
-                'gui': self.menu + self.toolbar,
-                'cmd': ['MyCommand1']
+            'StarterKit': {
+                'gui': self.MENU,
+                'cmd': ['MyCommand1', 'MyCommand2', 'MyCommand3']
             },
 
-            'Toolbox 2': {
-                'gui': self.menu + self.toolbar + self.context,
-                'cmd': ['MyCommand2', 'MyCommand3']
+            'Files': {
+                'gui': self.TOOLBAR,
+                'cmd': ['MyCommand2']
             },
 
-            'Toolbox 3': {
-                'gui': self.menu + self.toolbar + self.context,
-                'cmd': ['MyCOmmand1', 'MyCommand3']
+            'Geometry': {
+                'gui': self.TOOLBAR + self.CONTEXT,
+                'cmd': ['MyCommand1', 'MyCommand3']
             },
         }
 
@@ -146,10 +146,10 @@ class template_workbench(Gui.Workbench):
         #them to the UI according to the assigned location flags
         for _k, _v in self.command_ui.items():
 
-            if _v['gui'] & self.toolbar:
+            if _v['gui'] & self.TOOLBAR:
                 self.appendToolbar(_k, _v['cmd'])
 
-            if _v['gui'] & self.menu:
+            if _v['gui'] & self.MENU:
                 self.appendMenu(_k, _v['cmd'])
 
         self.appendToolbar("Tools", self.toolbox)
@@ -157,22 +157,22 @@ class template_workbench(Gui.Workbench):
 
         #Feel free to add diagnostic code or other start-up related
         #activities...
-        App.Console.PrintMessage("Switching to workbench_starterkit")
+        App.Console.PrintMessage("\n\tSwitching to workbench_starterkit")
 
         App.Console.PrintMessage(
-            "run a numpy function: sqrt(100) = {}".format(my_numpy_function.my_foo(100))
+            "\n\trun a numpy function: sqrt(100) = {}".format(my_numpy_function.my_foo(100))
         )
 
     def Activated(self):
-        '''
-        code which should be computed when a user switch to this workbench
-        '''
+        """
+        Workbench activation occurs when switched to
+        """
         pass
 
     def Deactivated(self):
-        '''
-        code which should be computed when this workbench is deactivated
-        '''
+        """
+        Workbench deactivation occurs when switched away from in the UI
+        """
         pass
 
     def ContextMenu(self, recipient):
@@ -181,8 +181,8 @@ class template_workbench(Gui.Workbench):
         """
 
         #Populate the context menu when it's called
-        for _k, _v in self.fn.items():
-            if _v['gui'] & self.context:
-                self.appendContextMenu(_k, _v['cmds'])
+        for _k, _v in self.command_ui.items():
+            if _v['gui'] & self.CONTEXT:
+                self.appendContextMenu(_k, _v['cmd'])
 
 Gui.addWorkbench(template_workbench())

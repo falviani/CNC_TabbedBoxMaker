@@ -30,7 +30,7 @@ import FreeCADGui as Gui
 
 from freecad.workbench_starterkit import ICONPATH
 
-class MyCommand1():
+class MyCommand3():
     """
     Example Command
     """
@@ -42,9 +42,9 @@ class MyCommand1():
     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     resources = {
         'Pixmap'  : os.path.join(ICONPATH, "template_resource.svg"),
-        'Accel'   : "Shift+1",
-        'MenuText': "MyCommand1",
-        'ToolTip' : "Test command #1 for Workbench Starter Kit",
+        'Accel'   : "Shift+3",
+        'MenuText': "MyCommand3",
+        'ToolTip' : "Test command #3 for Workbench Starter Kit",
         'CmdType' : "ForEdit"
     }
 
@@ -59,12 +59,12 @@ class MyCommand1():
         Activation callback
         """
 
-        print('\n\tRunning My Command 1...')
+        #_mw = self.getMainWindow()
 
-        App.ActiveDocument.addObject('Part::Box', 'Starter_Box')
-        App.ActiveDocument.ActiveObject.Label = 'Starter kit box'
-        App.ActiveDocument.recompute()
-        Gui.SendMsgToActiveView('ViewFit')
+        #self.form = _mw.findChild(QtGui.QWidget, 'TaskPanel')
+
+        print('\n\tRuning My Command 3 Task...')
+        return
 
     def IsActive(self):
         """
@@ -80,4 +80,4 @@ class MyCommand1():
 
         return App.ActiveDocument is not None
 
-Gui.addCommand('MyCommand1', MyCommand1())
+Gui.addCommand('MyCommand3', MyCommand3())
