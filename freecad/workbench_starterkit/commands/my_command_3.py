@@ -30,6 +30,8 @@ import FreeCADGui as Gui
 
 from freecad.workbench_starterkit import ICONPATH
 
+from ..tasks.example_task import ExampleTask
+
 class MyCommand3():
     """
     Example Command
@@ -59,12 +61,11 @@ class MyCommand3():
         Activation callback
         """
 
-        #_mw = self.getMainWindow()
-
-        #self.form = _mw.findChild(QtGui.QWidget, 'TaskPanel')
-
         print('\n\tRuning My Command 3 Task...')
-        return
+
+        _task = ExampleTask()
+        Gui.Control.showDialog(_task)
+        _task.setup()
 
     def IsActive(self):
         """
