@@ -80,13 +80,13 @@ class template_workbench(Gui.Workbench):
 # The Command Dictionary
 #
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# This dictionary provides a straight-forward, easy way to 
+# This dictionary provides a straight-forward, easy way to
 # manage workbench commands.  It contains a list of all command
 # toolboxes and the locations in the UI where they appear.
 #
 # The top-level items are dictionaries which represent a toolbox
-# to which commands may be assigned.  
-# 
+# to which commands may be assigned.
+#
 # The 'gui' value determines the UI locations in which a
 # toolbox appears.
 #
@@ -138,8 +138,6 @@ class template_workbench(Gui.Workbench):
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
         #import commands here to be added to the user interface
-        from freecad.workbench_starterkit import my_numpy_function
-
         from .commands import my_command_1, my_command_2, my_command_3
 
         #iterate the command toolboxes defined in __init__() and add
@@ -155,13 +153,8 @@ class template_workbench(Gui.Workbench):
         self.appendToolbar("Tools", self.toolbox)
         self.appendMenu("Tools", self.toolbox)
 
-        #Feel free to add diagnostic code or other start-up related
-        #activities...
+        #Add diagnostic code or other start-up related activities here
         App.Console.PrintMessage("\n\tSwitching to workbench_starterkit")
-
-        App.Console.PrintMessage(
-            "\n\trun a numpy function: sqrt(100) = {}".format(my_numpy_function.my_foo(100))
-        )
 
     def Activated(self):
         """
