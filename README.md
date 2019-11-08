@@ -20,7 +20,6 @@ pip install freecad.workbench_starterkit
 
 ```
 freecad/
-├── __init__.py
 └── workbench_starterkit/
     ├── __init__.py
     ├── init_gui.py
@@ -45,13 +44,6 @@ The name of the package which can be imported from python. Note that it's possib
 This name must not contain any python operator symbols like "-".
 If the repository contains only one pthon-package it makes sense to choose the same names for the repository-name, python-package and the pypi-package.
 eg.: `freecad.workbench_starterkit`
-
-
-## rules
-
-**The "freecad" namespace is not allowed to be used directly.** This means it is not allowed to set any variables in the `__init__.py` of freecad. (But as with python3 this `__init__.py` should not exist anyway, this isn't a problem.) Further it's not allowed to add variables to the freecad-namespace directly. This can introduce name-clashes.
-
-not allowed: `freecad.myVariable = 10` allowed: `freecad.app.myVariable = 10`
 
 
 ## test your module/ workbench
