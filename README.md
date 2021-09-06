@@ -1,4 +1,4 @@
-# FreeCAD Workbench-Starterkit
+# FreeCAD CNC Tabbed Box Maker
 
 This is a template for a FreeCAD workbench / module. As python-packaging and packaging for FreeCAD is not an easy task, this repository should give a overview of the things learned so far. If all you want is to create an extension for FreeCAD (module, additional gui-stuff, workbench), simple copy this repo and start replacing things.
 
