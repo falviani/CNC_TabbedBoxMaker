@@ -11,6 +11,8 @@ pip install freecad.workbench_starterkit
 pip uninstall freecad.workbench_starterkit 
 ```
 
+### test binary is at E:\Dev\FreeCAD19_Output\bin\FreeCAD.exe
+
 ## Structure of a workbench:
 
 ### Files
