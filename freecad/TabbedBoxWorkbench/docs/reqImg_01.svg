@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="reqImg_01.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.68328423"
+     inkscape:cx="160.98718"
+     inkscape:cy="482.22977"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1126" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Lend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1120" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1126-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-4-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1126-5-5" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-4-1-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1126-5-5-1" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mend-4-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1126-5-1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846"
+       width="40.518986"
+       height="17.126583"
+       x="14.620253"
+       y="13.367088"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6"
+       width="40.518986"
+       height="17.126583"
+       x="14.411393"
+       y="51.588608"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6-6"
+       width="40.518986"
+       height="17.126583"
+       x="14.829113"
+       y="90.854431"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6-6-2"
+       width="40.518986"
+       height="17.126583"
+       x="66.155914"
+       y="90.854431"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6-6-2-2"
+       width="40.518986"
+       height="17.126583"
+       x="112.32293"
+       y="90.901901"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6-6-2-0"
+       width="40.518986"
+       height="17.126583"
+       x="67.044304"
+       y="130.37119"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6-8"
+       width="40.518986"
+       height="17.126583"
+       x="156.41617"
+       y="52.84177"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:0.92;fill:none;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="rect846-6-8-9"
+       width="40.518986"
+       height="17.126583"
+       x="156.41617"
+       y="90.854431"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="M 34.670886,30.911392 C 33.835443,52.215189 33.835443,52.215189 33.835443,52.215189"
+       id="path1115"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-4)"
+       d="M 32.843584,69.335833 C 32.008141,90.63963 32.008141,90.63963 32.008141,90.63963"
+       id="path1115-3"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-4-1)"
+       d="m 85.760252,109.02336 c -0.835443,21.3038 -0.835443,21.3038 -0.835443,21.3038"
+       id="path1115-3-7"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-4-1-8)"
+       d="m 178.36466,70.923317 c -0.83545,21.3038 -0.83545,21.3038 -0.83545,21.3038"
+       id="path1115-3-7-7"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.17264;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-4)"
+       d="M 55.013789,30.634111 174.25822,52.250382"
+       id="path1638"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-4)"
+       d="M 41.172036,68.715193 74.083324,90.487499"
+       id="path1640"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.60009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-4-4)"
+       d="m 48.61739,69.15414 88.44182,20.743393"
+       id="path1640-1"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <flowRoot
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Celtic Hand';-inkscape-font-specification:'Celtic Hand';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot6056"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion6058"><rect
+           id="rect6060"
+           width="121"
+           height="27"
+           x="69"
+           y="70" /></flowRegion><flowPara
+         id="flowPara6062"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">basicVariant</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       style="font-size:18.6667px;line-height:1.25;font-family:'Celtic Hand';-inkscape-font-specification:'Celtic Hand';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot19842"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion19844"><rect
+           id="rect19846"
+           width="131"
+           height="23"
+           x="64"
+           y="215" /></flowRegion><flowPara
+         id="flowPara19848"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">simpleBox</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,35.98335,0)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot25298"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion25300"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect25302"
+           width="134"
+           height="23"
+           x="465"
+           y="220"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Sans;-inkscape-font-specification:'Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara27594">extraPlates</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot36454"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion36456"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect36458"
+           width="124"
+           height="22"
+           x="74"
+           y="359"
+           style="-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:18.6667006px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara36880">toplessBox</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot39346"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion39348"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect39350"
+           width="130"
+           height="22"
+           x="260"
+           y="361"
+           style="-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:18.6667006px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara39750">liddedBox</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,47.149059,0.55588641)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot39346-8"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion39348-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect39350-3"
+           width="130"
+           height="22"
+           x="260"
+           y="361"
+           style="-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:18.6667006px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara1041">handledBox</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,35.98335,4.2333335)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot43184"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion43186"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect43188"
+           width="143.81932"
+           height="24.613174"
+           x="455.18066"
+           y="343.38684"
+           style="-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:18.6667006px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara43874">divTray</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       style="font-size:18.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot50728"><flowRegion
+         id="flowRegion50730"><rect
+           id="rect50732"
+           width="136"
+           height="21"
+           x="260"
+           y="512" /></flowRegion><flowPara
+         id="flowPara50734">pai</flowPara></flowRoot>
+    <flowRoot
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-14.714472,-24.395046)"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle"
+       id="flowRoot19315"
+       inkscape:export-filename="C:\Users\frank\AppData\Roaming\FreeCAD\Mod\FC_TabbedBoxWorkbench\freecad\TabbedBoxWorkbench\docs\reqImg_01.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><flowRegion
+         id="flowRegion19317"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:Arial;-inkscape-font-specification:'Arial, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"><rect
+           id="rect19319"
+           width="420.03018"
+           height="60.004311"
+           x="174.15886"
+           y="605.89722"
+           style="-inkscape-font-specification:'Arial, Normal';font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:18.66666691px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" /></flowRegion><flowPara
+         id="flowPara19741">paintRack</flowPara></flowRoot>
+  </g>
+</svg>

@@ -92,3 +92,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+/freecad/TabbedBoxWorkbench/docs/requirements.md.backup
+/freecad/TabbedBoxWorkbench/docs/ConstructionNotes.md
+/freecad/TabbedBoxWorkbench/docs/ConstructionNotes.md.backup

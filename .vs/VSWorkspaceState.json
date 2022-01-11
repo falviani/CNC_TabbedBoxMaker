@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\boxvariants",
     "\\freecad",
-    "\\freecad\\workbench_starterkit",
-    "\\freecad\\workbench_starterkit\\commands"
+    "\\freecad\\TabbedBoxWorkbench",
+    "\\freecad\\TabbedBoxWorkbench\\commands",
+    "\\freecad\\TabbedBoxWorkbench\\docs",
+    "\\freecad\\TabbedBoxWorkbench\\resources"
   ],
-  "SelectedNode": "\\freecad\\workbench_starterkit\\commands\\my_command_1.py",
+  "SelectedNode": "\\freecad\\TabbedBoxWorkbench\\commands\\basicValues.py",
   "PreviewInSolutionExplorer": false
 }
