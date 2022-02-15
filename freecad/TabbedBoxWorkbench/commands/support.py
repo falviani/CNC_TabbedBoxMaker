@@ -5,8 +5,9 @@ import FreeCADGui as Gui
 from FreeCAD import Base
 import Part, PartGui
 from PySide2 import QtWidgets
-import cfg
 import enum
+import cfg
+from datetime import date
 
 """
 Support classes and common functions
@@ -76,10 +77,29 @@ def initBasicObs():
     """
     Universally used. Call this after checkDims() has verified we have basic data to proceed
     """
-    if App.activeDocument() is None:
-        cfg.theDoc = App.newDocument()
-    else:
-        cfg.theDoc = App.activeDocument()
-    # Do I need to add a body here?
-    cfg.theSketch = App.activeDocument().addObject("Sketcher::SketchObject","Sketch")
+    d = App.activeDocument()
+    t = date.today()
+    if d is None:
+        #nD = App.newDocument("unnamed")
+        #App.setActiveDocument(nD)
+        #d = App.getActiveDocument()
+        pass
+    d.Label = "TabbedBox-{0}_{1}_{2}".format(t.day,t.month, t.year)
+    cfg.setDoc(d)
+    Gui.activeDocument = cfg.getDoc()
 
+def createBody(boxType):
+    '''
+    All generated plates need to be on sketches, which need to be in a body
+    '''
+    if boxType is None:
+        bodyName = "body"
+    else:
+        bodyName = boxType
+    cfg.setBodyName(bodyName)
+    cfg.getDoc().addObject("PartDesign::Body", bodyName)
+    cfg.setBody(cfg.getDoc().getObject(bodyName))
+    Gui.activeView().setActiveObject('abody', cfg.getBody())
+    Gui.Selection.clearSelection()
+    Gui.Selection.addSelection(cfg.getBody())
+    App.ActiveDocument.recompute()

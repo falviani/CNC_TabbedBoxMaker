@@ -8,10 +8,10 @@ import os, sys
 import FreeCAD as App
 import FreeCADGui as Gui
 from freecad.TabbedBoxWorkbench import RESPATH
-import cfg      # globally available
 from PySide2 import QtCore, QtGui, QtWidgets
 import gallery
 import basicsettings
+import cfg      # globally available
 import support
 
 class Cmd_PickBox():

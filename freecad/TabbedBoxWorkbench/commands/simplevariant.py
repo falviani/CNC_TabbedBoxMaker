@@ -12,4 +12,16 @@ class SimpleVariant(basevariant.BaseVariant):
 
     def __init__(self):
         ''' specific stuff for this variant '''
-        super.__init__()
+        super(SimpleVariant, self).__init__()
+
+    def makePlates(self):
+        makeBottomPlate()
+        makeLeftPlate()
+        makeTopPlate()
+        makeRightPlate()
+        makeBackPlate()
+        makeTopPlate()
+
+    def doToolPaths(self):
+        # Path methods
+        pass

@@ -11,7 +11,7 @@ import simpleBox
 import basicsettings
 #import basevariant
 import simplevariant    # actual constuction of this box
-import support      # custom data classes, etc.
+import support          # custom data classes, etc.
 
 class Cmd_Simple():
 
@@ -49,18 +49,24 @@ class Cmd_Simple():
         Actually construct the box
         '''
         self.boxer = simplevariant.SimpleVariant()
-        support.initBasicObs()  #create globals: doc and sketch (and body?) to hold our construction
+        support.initBasicObs()  #create globals: doc to hold our construction
+        support.createBody("simpleBox")
+        cfg.test1()     #examine actual values
         print("building simple box")
         # make first frame. may need more depending of stock size and box size
         self.boxer.makeStockFrame((0,0,0), self.basics.getStockWidth(), self.basics.getStockHeight())
+        self.boxer.makePlates()
+        self.boxer.makeToolPaths()
         self.dl.hide()
 
     """
     'Standard' methods
     """
 
+    '''
     def __init__(self):
         super().__init__()
+    '''
 
     def GetResources(self):
         """

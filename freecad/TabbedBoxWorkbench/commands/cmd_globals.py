@@ -95,11 +95,11 @@ class Cmd_Globals():
         self.dl.ui.stockY_val.setValue(254.0)
         self.basics.setStockThickness(3.3)
         self.dl.ui.stockZ_val.setValue(3.3)
-        self.basics.setMargin(5)
+        self.basics.setStockMargin(5)
         self.dl.ui.slotFit_val.setValue(5)
         self.basics.setEndmill(1.0)
         self.dl.ui.emDia_val.setValue(1.0)          # 1mm endmill for thin stock
-        self.dl.repaint(self.dl.visibleRegion())     #refresh display
+        self.dl.repaint(self.dl.visibleRegion())    # refresh display
 
     def loadUIFromBasics(self):
         pass
